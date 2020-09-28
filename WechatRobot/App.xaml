@@ -4,6 +4,24 @@
              xmlns:local="clr-namespace:WechatRobot"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+
+            <FontFamily x:Key="FontTitle">微软雅黑</FontFamily>
+
+            <ResourceDictionary.MergedDictionaries>
+                <!--颜色-->
+                <ResourceDictionary Source="Style/ColorDictionary.xaml"/>
+                <!--  DMSkin  -->
+                <ResourceDictionary Source="pack://application:,,,/DMSkin;component/DMSkin.xaml" />
+
+                <!--图片-->
+                <ResourceDictionary Source="Style/FontFammliy.xaml"/>
+
+                <ResourceDictionary Source="Style/RadioButton.xaml"/>
+                <ResourceDictionary Source="Style/MyListView.xaml"/>
+                <ResourceDictionary Source="Style/MyTextbox.xaml"/>
+                <ResourceDictionary Source="Style/MyButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
