@@ -18,7 +18,7 @@
     SystemButtonOverColor="#10000000"
     SystemButtonSize="50"
     WindowStartupLocation="CenterScreen"
-    WindowStyle="None" Loaded="DMSkinWindow_Loaded" WindowState="Maximized" Closing="DMSkinWindow_Closing" >
+    WindowStyle="None" Loaded="DMSkinWindow_Loaded" WindowState="Normal" Closing="DMSkinWindow_Closing" >
 
     <!--Style="{StaticResource DMSkinWindowStyle}"-->
     
